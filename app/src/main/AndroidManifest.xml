@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/expenseexplorerlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinanceManagementClient"
+        tools:targetApi="31">
+        <activity
+            android:name=".DeleteProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalculateETFActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalculatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalculateIncomeTaxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewIncomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InsertIncomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IncomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteIncomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateIncomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InsertExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".expenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>

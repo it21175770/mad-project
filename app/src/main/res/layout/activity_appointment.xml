@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_background">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/expenseexplorerlogo"/>
+
+        <TextView
+            android:layout_width="169dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="250dp"
+            android:text="Make Appointment"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="View"
+            android:id="@+id/mainView"
+            android:textSize="18sp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/themeGreen"
+            app:cornerRadius = "20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Upload"
+            android:id="@+id/mainUpload"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/themeGreen"
+            app:cornerRadius = "20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:text="Update"
+            android:id="@+id/mainUpdate"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:strokeColor="@color/themeGreen"
+            app:strokeWidth="2dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/themeGreen"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            app:cornerRadius = "20dp"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:text="Delete"
+            android:id="@+id/mainDelete"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/themeGreen"
+            app:strokeWidth="2dp"
+            app:strokeColor="@color/themeGreen"
+            app:cornerRadius = "20dp"/>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
